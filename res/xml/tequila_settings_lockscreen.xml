@@ -15,4 +15,10 @@
             android:summary="@string/enable_fingerprint_ripple_effect_summary"
             android:defaultValue="true" />
 
+    <com.tequila.support.preferences.SecureSettingSwitchPreference
+        android:key="power_menu_hide_on_secure"
+        android:title="@string/power_menu_hide_on_secure_title"
+        android:summary="@string/power_menu_hide_on_secure_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
