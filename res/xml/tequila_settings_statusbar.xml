@@ -23,6 +23,12 @@
         android:summary="@string/double_tap_to_sleep_summary"
         android:defaultValue="false"/>
 
+    <com.tequila.support.preferences.SystemSettingSwitchPreference
+        android:key="data_disabled_icon"
+        android:title="@string/data_disabled_icon_title"
+        android:summary="@string/data_disabled_icon_summary"
+        android:defaultValue="false"/>
+
     <PreferenceCategory
         android:title="@string/network_options">
 
