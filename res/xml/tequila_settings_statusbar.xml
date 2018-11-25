@@ -23,6 +23,12 @@
         android:summary="@string/combined_status_bar_signal_icons_summary"
         android:defaultValue="true" />
     
+    <com.tequila.support.preferences.SystemSettingSwitchPreference
+        android:key="data_disabled_icon"
+        android:title="@string/data_disabled_icon_title"
+        android:summary="@string/data_disabled_icon_summary"
+        android:defaultValue="false"/>
+    
     <PreferenceCategory
         android:title="@string/battery_options">
 
