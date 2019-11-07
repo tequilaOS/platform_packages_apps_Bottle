@@ -3,6 +3,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/tequila_settings_btn" >
 
+    <com.tequila.support.preferences.SecureSettingSwitchPreference
+        android:key="advanced_reboot"
+        android:title="@string/global_actions_advanced_reboot_title"
+        android:summary="@string/global_actions_advanced_reboot_summary"
+        android:defaultValue="false" />
+
     <Preference
         android:key="volume_button_music_control_sumary"
         android:title="@string/volume_button_music_control_title"
