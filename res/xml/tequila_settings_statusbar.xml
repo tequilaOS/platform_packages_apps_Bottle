@@ -19,4 +19,10 @@
         android:defaultValue="false"
         android:icon="@drawable/ic_dt2s" />
 
+    <SwitchPreference
+        android:key="enable_combined_signal_icons"
+        android:title="@string/combined_status_bar_signal_icons_title"
+        android:summary="@string/combined_status_bar_signal_icons_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
