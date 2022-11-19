@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/tequila_settings_statusbar" >
+
+    <!-- System UI Tuner -->
+    <Preference
+        android:key="system_ui_tuner"
+        android:title="@string/system_ui_tuner">
+        <intent android:action="com.android.settings.action.UI_TUNER"/>
+    </Preference>
+
+    <!-- Separate signal icons -->
+    <com.tequila.support.preferences.OverlaySwitchPreference
+        android:key="com.android.systemui.flags.no_combined_icons"
+        android:title="@string/separate_signal_icons_title"
+        android:summary="@string/separate_signal_icons_summary"
+        android:defaultValue="false" />
+</PreferenceScreen>

@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="tequila_settings_title">tequilaOS Settings</string>
+
+    <!-- Fragments -->
+    <string name="tequila_settings_statusbar">Statusbar</string>
+
+    <!-- System UI Tuner -->
+    <string name="system_ui_tuner">System UI Tuner</string>
+
+    <!-- Separate signal icons -->
+    <string name="separate_signal_icons_title">Separate signal icons</string>
+    <string name="separate_signal_icons_summary">Show signal and WiFi separately\nRequires a SystemUI restart</string>
 </resources>
