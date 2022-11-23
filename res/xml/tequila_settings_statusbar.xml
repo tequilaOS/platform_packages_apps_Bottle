@@ -16,4 +16,11 @@
         android:title="@string/separate_signal_icons_title"
         android:summary="@string/separate_signal_icons_summary"
         android:defaultValue="false" />
+
+    <!-- Network Traffic Monitor -->
+    <com.tequila.support.preferences.SystemSettingMasterSwitchPreference
+        android:key="network_traffic_state"
+        android:title="@string/network_traffic_state_title"
+        android:fragment="com.tequila.settings.fragments.NetTrafficMonSettings"
+        android:defaultValue="false" />
 </PreferenceScreen>
