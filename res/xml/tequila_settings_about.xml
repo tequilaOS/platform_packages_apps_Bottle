@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/tequila_settings_about_entry" >
+
+    <Preference
+        android:key="about_rom"/>
+
+    <PreferenceCategory
+        android:title="@string/about_links"/>
+
+    <Preference
+            android:key="telegram"
+            android:title="@string/telegram_channel"
+            android:summary="@string/telegram_channel_summary"
+            android:icon="@drawable/ic_telegram">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/tequilaOSbulletin"/>
+    </Preference>
+
+    <Preference
+            android:key="website"
+            android:title="@string/website_title"
+            android:summary="@string/website_summary"
+            android:icon="@drawable/ic_website">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://tequilaos.pl/"/>
+    </Preference>
+
+    <Preference
+            android:key="github"
+            android:title="@string/github_title"
+            android:summary="@string/github_summary"
+            android:icon="@drawable/ic_github">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/tequilaOS"/>
+    </Preference>
+
+    <Preference
+            android:key="donate"
+            android:title="@string/donate_title"
+            android:summary="@string/donate_summary"
+            android:icon="@drawable/ic_donate">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://tequilaos.pl/donate"/>
+    </Preference>
+
+    <PreferenceCategory
+        android:title="@string/about_members"/>
+
+    <Preference
+            android:key="ejbtrd"
+            android:title="przekichane"
+            android:summary="Lead developer"
+            android:icon="@drawable/ic_person">
+    </Preference>
+
+    <Preference
+            android:key="cfdddd"
+            android:title="cfdddd"              
+            android:summary="Developer"
+            android:icon="@drawable/ic_person">
+    </Preference>
+
+    <Preference
+            android:key="dvrkplayer"
+            android:title="dvrkplayer"              
+            android:summary="UI designer"
+            android:icon="@drawable/ic_person">
+    </Preference>
+
+
+</PreferenceScreen>

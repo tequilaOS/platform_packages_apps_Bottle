@@ -4,9 +4,20 @@
     android:title="@string/tequila_settings_title" >
 
     <Preference
+        android:key="about_fragment"
+        android:fragment="com.tequila.settings.fragments.AboutTeam"/>
+
+    <Preference
         android:key="statusbar_fragment"
-        android:title="@string/tequila_settings_statusbar" 
+        android:title="@string/tequila_settings_statusbar"
+        android:summary="@string/tequila_settings_statusbar_summary" 
         android:fragment="com.tequila.settings.fragments.StatusbarSettings"
         android:icon="@drawable/ic_settings_statusbar"/>
 
+    <Preference
+        android:key="lockscreen_fragment"
+        android:title="@string/tequila_settings_lockscreen"
+        android:summary="@string/tequila_settings_lockscreen_summary" 
+        android:fragment="com.tequila.settings.fragments.LockscreenSettings"
+        android:icon="@drawable/ic_settings_lockscreen"/>
 </PreferenceScreen>

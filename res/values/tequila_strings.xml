@@ -4,7 +4,26 @@
 
     <!-- Fragments -->
     <string name="tequila_settings_statusbar">Statusbar</string>
+    <string name="tequila_settings_statusbar_summary">Statusbar icons customization</string>
+    <string name="tequila_settings_lockscreen">Lockscreen</string>
+    <string name="tequila_settings_lockscreen_summary">double tap to sleep, etc</string>
+
+    <string name="website_title">Website</string>
+    <string name="website_summary">Download portal</string>
+    <string name="telegram_channel">Telegram channel</string>
+    <string name="telegram_channel_summary">News, updates and open group chat</string>
+    <string name="donate_title">Donations</string>
+    <string name="donate_summary">Helps us keep our infrastructure up</string>
+    <string name="github_title">GitHub</string>
+    <string name="github_summary">tequilaOS source code</string>
+    <string name="about_links">Links</string>
+    <string name="about_members">Members</string>
+
+    <string name="tequila_settings_about_entry">About tequilaOS</string>
+    <string name="tequila_settings_aboutus">¿Qué es el tequilaOS?</string>
+    <string name="tequila_settings_aboutus_summary">tequilaOS is an aftermarket OS based on AOSP. We focus on stability and performance but still allow users to customize the system to their own needs.</string>
 
     <!-- System UI Tuner -->
-    <string name="system_ui_tuner">System UI Tuner</string>
+    <string name="system_ui_tuner">Icons</string>
+    <string name="system_ui_tuner_summary">Show and hide various icons</string>
 </resources>

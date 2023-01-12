@@ -6,7 +6,9 @@
     <!-- System UI Tuner -->
     <Preference
         android:key="system_ui_tuner"
-        android:title="@string/system_ui_tuner">
+        android:title="@string/system_ui_tuner"
+        android:summary="@string/system_ui_tuner_summary"
+        android:icon="@drawable/ic_settings_statusbar">
         <intent android:action="com.android.settings.action.STATUS_BAR_TUNER"/>
     </Preference>
 
