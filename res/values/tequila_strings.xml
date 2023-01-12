@@ -26,4 +26,9 @@
     <!-- System UI Tuner -->
     <string name="system_ui_tuner">Icons</string>
     <string name="system_ui_tuner_summary">Show and hide various icons</string>
+
+    <!-- Double tap status bar to sleep -->
+    <string name="double_tap_to_sleep_title">Double tap to sleep</string>
+    <string name="double_tap_to_sleep_summary">Double tap status bar to put the device to sleep</string>
+
 </resources>

@@ -12,4 +12,11 @@
         <intent android:action="com.android.settings.action.STATUS_BAR_TUNER"/>
     </Preference>
 
+    <com.tequila.support.preferences.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_gesture"
+        android:title="@string/double_tap_to_sleep_title"
+        android:summary="@string/double_tap_to_sleep_summary"
+        android:defaultValue="false"
+        android:icon="@drawable/ic_dt2s" />
+
 </PreferenceScreen>
