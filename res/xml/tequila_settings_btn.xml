@@ -3,4 +3,11 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/tequila_settings_btn" >
 
+    <Preference
+        android:key="volume_button_music_control_sumary"
+        android:title="@string/volume_button_music_control_title"
+        android:summary="@string/volume_button_music_control_summary"
+        android:fragment="com.tequila.settings.fragments.VolumeButtonMusicControlGestureSettings"
+        settings:controller="com.tequila.settings.controllers.VolumeButtonMusicControlPreferenceController" />
+
 </PreferenceScreen>
