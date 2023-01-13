@@ -7,7 +7,8 @@
     <string name="tequila_settings_statusbar_summary">Statusbar icons customization</string>
     <string name="tequila_settings_lockscreen">Lockscreen</string>
     <string name="tequila_settings_lockscreen_summary">double tap to sleep, etc</string>
-
+    <string name="tequila_settings_btn">Buttons</string>
+    <string name="tequila_settings_btn_summary">customize button actions</string>
     <string name="website_title">Website</string>
     <string name="website_summary">Download portal</string>
     <string name="telegram_channel">Telegram channel</string>

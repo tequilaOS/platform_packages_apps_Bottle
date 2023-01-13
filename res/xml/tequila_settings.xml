@@ -20,4 +20,12 @@
         android:summary="@string/tequila_settings_lockscreen_summary" 
         android:fragment="com.tequila.settings.fragments.LockscreenSettings"
         android:icon="@drawable/ic_settings_lockscreen"/>
+
+    <Preference
+        android:key="btn_fragment"
+        android:title="@string/tequila_settings_btn"
+        android:summary="@string/tequila_settings_btn_summary" 
+        android:fragment="com.tequila.settings.fragments.BtnSettings"
+        android:icon="@drawable/ic_btn"/>
+
 </PreferenceScreen>
