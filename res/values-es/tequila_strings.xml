@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tequila_settings_title">Ajustes de tequilaOS</string>
+    <string name="tequila_settings_statusbar">Barra de estado</string>
+    <string name="tequila_settings_statusbar_summary">Personalización de los iconos de la barra de estado</string>
+    <string name="tequila_settings_lockscreen">Pantalla de bloqueo</string>
+    <string name="tequila_settings_lockscreen_summary">Personalización de la pantalla de bloqueo</string>
+    <string name="website_title">Página web</string>
+    <string name="website_summary">Portal de descarga</string>
+    <string name="telegram_channel">Canal de Telegram</string>
+    <string name="telegram_channel_summary">Noticias, actualizaciones y chat de grupo abierto</string>
+    <string name="donate_title">Donaciones</string>
+    <string name="donate_summary">Ayúdanos a mantener nuestra infraestructura actualizada</string>
+    <string name="github_title">GitHub</string>
+    <string name="github_summary">Código fuente tequilaOS</string>
+    <string name="about_links">Enlaces</string>
+    <string name="about_members">Miembros</string>
+    <string name="tequila_settings_about_entry">Acerca de tequilaOS</string>
+    <string name="tequila_settings_aboutus">¿Qué es el tequilaOS?</string>
+    <string name="tequila_settings_aboutus_summary">tequilaOS es un sistema operativo de posmercado basado en AOSP. Nos centramos en la estabilidad y el rendimiento pero seguimos permitiendo a los usuarios personalizar el sistema a sus propias necesidades.</string>
+    <string name="system_ui_tuner">Iconos</string>
+    <string name="system_ui_tuner_summary">Mostrar y ocultar los iconos</string>
+    <string name="double_tap_to_sleep_title">Doble toque para suspender</string>
+    <string name="double_tap_to_sleep_summary">Doble toque en la barra de estado para apagar la pantalla</string>
+    <string name="double_tap_to_sleep_lockscreen_title">Doble toque para suspender</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Doble toque en la pantalla de bloqueo para apagar la pantalla</string>
+</resources>

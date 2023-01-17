@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tequila_settings_title">Setelan tequilaOS</string>
+    <string name="tequila_settings_statusbar">Bilah status</string>
+    <string name="tequila_settings_statusbar_summary">Kustomisasi ikon bilah status</string>
+    <string name="tequila_settings_lockscreen">Layar kunci</string>
+    <string name="tequila_settings_lockscreen_summary">Ketuk dua kali untuk tidur, dll</string>
+    <string name="website_title">Situs web</string>
+    <string name="website_summary">Portal unduhan</string>
+    <string name="telegram_channel">Saluran Telegram</string>
+    <string name="telegram_channel_summary">Berita, pembaruan, dan obrolan grup terbuka</string>
+    <string name="donate_title">Donasi</string>
+    <string name="donate_summary">Membantu menjaga infrastruktur kami</string>
+    <string name="github_title">GitHub</string>
+    <string name="github_summary">Kode sumber tequilaOS</string>
+    <string name="about_links">Tautan</string>
+    <string name="about_members">Anggota</string>
+    <string name="tequila_settings_about_entry">Tentang tequilaOS</string>
+    <string name="tequila_settings_aboutus">Apa itu tequilaOS?</string>
+    <string name="tequila_settings_aboutus_summary">tequilaOS adalah OS aftermarket berdasarkan AOSP. Kami fokus pada stabilitas dan kinerja tetapi tetap memungkinkan pengguna untuk menyesuaikan sistem dengan kebutuhan mereka sendiri.</string>
+    <string name="system_ui_tuner">Ikon</string>
+    <string name="system_ui_tuner_summary">Tampilkan dan sembunyikan berbagai ikon</string>
+    <string name="double_tap_to_sleep_title">Ketuk dua kali untuk tidur</string>
+    <string name="double_tap_to_sleep_summary">Ketuk dua kali pada bilah status untuk mematikan layar</string>
+    <string name="double_tap_to_sleep_lockscreen_title">Ketuk dua kali untuk tidur</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Ketuk layar kunci dua kali untuk mengalihkan perangkat ke mode tidur</string>
+</resources>
