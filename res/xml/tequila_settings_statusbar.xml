@@ -7,8 +7,7 @@
     <Preference
         android:key="system_ui_tuner"
         android:title="@string/system_ui_tuner"
-        android:summary="@string/system_ui_tuner_summary"
-        android:icon="@drawable/ic_settings_statusbar">
+        android:summary="@string/system_ui_tuner_summary">
         <intent android:action="com.android.settings.action.STATUS_BAR_TUNER"/>
     </Preference>
 
@@ -16,14 +15,12 @@
         android:key="double_tap_sleep_gesture"
         android:title="@string/double_tap_to_sleep_title"
         android:summary="@string/double_tap_to_sleep_summary"
-        android:defaultValue="false"
-        android:icon="@drawable/ic_dt2s" />
+        android:defaultValue="false"/>
 
     <SwitchPreference
         android:key="enable_combined_signal_icons"
         android:title="@string/combined_status_bar_signal_icons_title"
         android:summary="@string/combined_status_bar_signal_icons_summary"
-        android:icon="@drawable/ic_combined_icons"
         android:defaultValue="true" />
 
 </PreferenceScreen>
