@@ -28,4 +28,11 @@
         android:fragment="com.tequila.settings.fragments.BtnSettings"
         android:icon="@drawable/ic_btn"/>
 
+    <Preference
+        android:key="misc_fragment"
+        android:title="@string/tequila_settings_misc"
+        android:summary="@string/tequila_settings_misc_summary" 
+        android:fragment="com.tequila.settings.fragments.MiscSettings"
+        android:icon="@drawable/ic_misc"/>
+
 </PreferenceScreen>
