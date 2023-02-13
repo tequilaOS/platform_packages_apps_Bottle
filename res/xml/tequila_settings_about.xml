@@ -62,14 +62,77 @@
     <Preference
             android:key="cfdddd"
             android:title="cfdddd"              
-            android:summary="Developer"
+            android:summary="Developer, romper enjoyer"
             android:icon="@drawable/ic_person">
     </Preference>
 
     <Preference
             android:key="dvrkplayer"
             android:title="dvrkplayer"              
-            android:summary="UI designer"
+            android:summary="UI designer, blocked me on twitter"
+            android:icon="@drawable/ic_person">
+    </Preference>
+    
+    <Preference
+            android:key="ArixElo"
+            android:title="ArixElo"              
+            android:summary="Tax evasion, fraud, ice frying, davinci enjoyer, carder, mepherdrone dealer, amphetamine fan, 3 daily doses of estrofem"
+            android:icon="@drawable/ic_person">
+    </Preference>
+    
+    <Preference
+            android:key="RichardStallman"
+            android:title="Richard Stallman"              
+            android:summary="4 times Sexiest Linux User Award winner, GNU creator, mentally insane"
+            android:icon="@drawable/ic_person">
+    </Preference>
+    
+    <Preference
+            android:key="PeterGriffin"
+            android:title="Peter Griffin"              
+            android:summary="Lead star of hit TV show Family Guy"
+            android:icon="@drawable/ic_person">
+    </Preference>
+    
+    <Preference
+            android:key="MalikMontana"
+            android:title="Malik Montana"              
+            android:summary="prowadze auto kolanem szyberdach panorama"
+            android:icon="@drawable/ic_person">
+    </Preference>
+    
+    <Preference
+            android:key="KanyeWest"
+            android:title="Kanye West"              
+            android:summary="he made My Beautiful Dark Twisted Fantasy I guess"
+            android:icon="@drawable/ic_person">
+    </Preference>
+    
+    <Preference
+            android:key="puska"
+            android:title="Jakub puska lajblich"              
+            android:summary="Doesn't pay for electricity, larps being a russian"
+            android:icon="@drawable/ic_person">
+    </Preference>
+    
+    <Preference
+            android:key="superoskar6"
+            android:title="superoskar6"              
+            android:summary="Server mascot (+furry homosexual :eww:)"
+            android:icon="@drawable/ic_person">
+    </Preference>
+    
+    <Preference
+            android:key="KokomiSakura"
+            android:title="Kokomi Sakura"              
+            android:summary="Good JAV actress, seriously go check out some of her scenes she a 10"
+            android:icon="@drawable/ic_person">
+    </Preference>
+    
+    <Preference
+            android:key="klefedron"
+            android:title="Kupie klefedron z dowozem telegram @rolex058"              
+            android:summary="Prosze pisac szybko potrzebuje bo mam zjazd !!! kurwa"
             android:icon="@drawable/ic_person">
     </Preference>
 
