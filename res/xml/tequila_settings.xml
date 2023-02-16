@@ -35,4 +35,11 @@
         android:fragment="com.tequila.settings.fragments.MiscSettings"
         android:icon="@drawable/ic_misc"/>
 
+    <Preference
+        android:key="notifications_fragment"
+        android:title="@string/tequila_settings_notifications"
+        android:summary="@string/tequila_settings_notifications_summary" 
+        android:fragment="com.tequila.settings.fragments.NotificationsSettings"
+        android:icon="@drawable/ic_notifications"/>
+
 </PreferenceScreen>
