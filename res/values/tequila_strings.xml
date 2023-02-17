@@ -9,10 +9,10 @@
     <string name="tequila_settings_lockscreen_summary">double tap to sleep, etc</string>
     <string name="tequila_settings_btn">Buttons</string>
     <string name="tequila_settings_btn_summary">customize button actions</string>
-    <string name="tequila_settings_misc">Miscellaneous</string>
-    <string name="tequila_settings_misc_summary">Other settings</string>
     <string name="tequila_settings_notifications">Notifications</string>
     <string name="tequila_settings_notifications_summary">Customize notifications</string>
+    <string name="tequila_settings_misc">Miscellaneous</string>
+    <string name="tequila_settings_misc_summary">Other settings</string>
     <string name="website_title">Website</string>
     <string name="website_summary">Download portal</string>
     <string name="telegram_channel">Telegram channel</string>

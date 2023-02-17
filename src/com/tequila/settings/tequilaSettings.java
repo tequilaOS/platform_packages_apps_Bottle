@@ -20,8 +20,8 @@ public class tequilaSettings extends SettingsPreferenceFragment {
         findPreference("statusbar_fragment").setLayoutResource(R.layout.top_level_preference_top);
         findPreference("lockscreen_fragment").setLayoutResource(R.layout.top_level_preference_bottom);
         findPreference("btn_fragment").setLayoutResource(R.layout.top_level_preference_alone);
-        findPreference("misc_fragment").setLayoutResource(R.layout.top_level_preference_alone);
         findPreference("notifications_fragment").setLayoutResource(R.layout.top_level_preference_alone);
+        findPreference("misc_fragment").setLayoutResource(R.layout.top_level_preference_alone);
     }
 
     @Override
