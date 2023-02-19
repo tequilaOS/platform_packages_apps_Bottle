@@ -75,4 +75,13 @@
     <!-- Annoying Notifications -->
     <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+
+    <!-- Battery customizations -->
+    <string name="battery_options">Battery</string>
+    <string name="battery_style_title">Battery Style</string>
+    <string name="battery_style_port">Portrait</string>
+    <string name="battery_style_circle">Circle</string>
+    <string name="battery_style_text">Text</string>
+    <string name="battery_percent_title">Show percent</string>
+    <string name="battery_percent_summary">Always show the battery percent with the icon</string>
 </resources>
