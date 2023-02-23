@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tequila_settings_title">tequilaOS Einstellungen</string>
+    <string name="tequila_settings_statusbar">Statusleiste</string>
+    <string name="tequila_settings_statusbar_summary">Anpassung der Statusleistensymbole</string>
+    <string name="tequila_settings_lockscreen">Sperrbildschirm</string>
+    <string name="tequila_settings_lockscreen_summary">Zweimal Tippen für Standby-Modus, etc.</string>
+    <string name="website_title">Webseite</string>
+    <string name="website_summary">Downloadportal</string>
+    <string name="telegram_channel">Telegram-Kanal</string>
+    <string name="telegram_channel_summary">News, Updates und offener Gruppenchat</string>
+    <string name="donate_title">Spenden</string>
+    <string name="donate_summary">Hilft uns, unsere Infrastruktur auf dem Laufenden zu halten</string>
+    <string name="github_title">GitHub</string>
+    <string name="github_summary">tequilaOS Quellcode</string>
+    <string name="about_links">Links</string>
+    <string name="about_members">Mitglieder</string>
+    <string name="tequila_settings_about_entry">Über tequilaOS</string>
+    <string name="tequila_settings_aboutus">¿Qué es el tequilaOS?</string>
+    <string name="tequila_settings_aboutus_summary">tequilaOS ist ein Drittanbieter-Betriebssystem, welches auf AOSP basierend ist. Wir fokussieren uns auf Stabilität und Leistung, erlauben aber trotzdem dem Benutzer, das System auf eigenen Bedürfnissen anzupassen.</string>
+    <string name="system_ui_tuner">Symbole</string>
+    <string name="system_ui_tuner_summary">Verschiedener Symbole Ein- und Ausblenden</string>
+    <string name="double_tap_to_sleep_title">Zweimal tippen für Standby-Modus</string>
+    <string name="double_tap_to_sleep_summary">Doppelt auf die Statusleiste tippen, um das Gerät in Standby-Modus zu versetzen</string>
+    <string name="double_tap_to_sleep_lockscreen_title">Zweimal tippen für Standby-Modus</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Doppelt auf dem Sperrbildschirm tippen, um in den Standby-Modus zu gehen</string>
+    <string name="combined_status_bar_signal_icons_title">Kombinierte Signalsymbole</string>
+    <string name="combined_status_bar_signal_icons_summary">Aktiviere kombinierte Signalsymbole\n(WARNUNG: Beim Aktivieren kombinierter Signalsymbole wird ein weicher Neustart gemacht)</string>
+</resources>

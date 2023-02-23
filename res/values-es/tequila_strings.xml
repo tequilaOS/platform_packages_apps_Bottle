@@ -24,4 +24,6 @@
     <string name="double_tap_to_sleep_summary">Doble toque en la barra de estado para apagar la pantalla</string>
     <string name="double_tap_to_sleep_lockscreen_title">Doble toque para suspender</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Doble toque en la pantalla de bloqueo para apagar la pantalla</string>
+    <string name="combined_status_bar_signal_icons_title">Iconos de señal combinados</string>
+    <string name="combined_status_bar_signal_icons_summary">Habilitar iconos de señal combinados\n(ADVERTENCIA: se producirá un reinicio suave al activarlo)</string>
 </resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tequila_settings_title">tequilaOS Ayarları</string>
+    <string name="tequila_settings_statusbar">Durum çubuğu</string>
+    <string name="tequila_settings_statusbar_summary">Durum çubuğu simgeleri özelleştirme</string>
+    <string name="tequila_settings_lockscreen">Kilit ekranı</string>
+    <string name="tequila_settings_lockscreen_summary">Uyutmak için iki kez dokunun</string>
+    <string name="website_title">Web sitesi</string>
+    <string name="website_summary">İndirme portalı</string>
+    <string name="telegram_channel">Telegram kanalı</string>
+    <string name="telegram_channel_summary">Haberler, güncellemeler ve açık grup sohbeti</string>
+    <string name="donate_title">Bağışlar</string>
+    <string name="donate_summary">Altyapımızı ayakta tutmamıza yardımcı ol</string>
+    <string name="github_title">GitHub</string>
+    <string name="github_summary">tequilaOS kaynak kodu</string>
+    <string name="about_links">Bağlantılar</string>
+    <string name="about_members">Üyeler</string>
+    <string name="tequila_settings_about_entry">TequilaOS Hakkında</string>
+    <string name="tequila_settings_aboutus">¿tequilaOS nasıl?</string>
+    <string name="tequila_settings_aboutus_summary">tequilaOS, AOSP tabanlı bir işletim sistemidir. Kararlılık ve performansa odaklanıyoruz, ancak yine de kullanıcıların sistemi kendi ihtiyaçlarına göre özelleştirmelerine izin veriyoruz.</string>
+    <string name="system_ui_tuner">Simgeler</string>
+    <string name="system_ui_tuner_summary">Çeşitli simgeleri göster ve gizle</string>
+    <string name="double_tap_to_sleep_title">Uyutmak için çift dokun</string>
+    <string name="double_tap_to_sleep_summary">Cihazı uykutmak için durum çubuğuna iki kez dokunun</string>
+    <string name="double_tap_to_sleep_lockscreen_title">Uyutmak için çift dokun</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Cihazı uyutmak için kilit ekranına iki kez hafifçe vurun</string>
+    <string name="combined_status_bar_signal_icons_title">Birleşik sinyal simgeleri</string>
+    <string name="combined_status_bar_signal_icons_summary">Birleşik sinyal simgelerini etkinleştir\n(UYARI: birleşik sinyal simgeleri etkinleştirildiğinde kısa bir yeniden başlatma gerçekleşir)</string>
+</resources>

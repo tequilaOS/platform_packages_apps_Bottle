@@ -24,4 +24,6 @@
     <string name="double_tap_to_sleep_summary">Ketuk dua kali pada bilah status untuk mematikan layar</string>
     <string name="double_tap_to_sleep_lockscreen_title">Ketuk dua kali untuk tidur</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Ketuk layar kunci dua kali untuk mengalihkan perangkat ke mode tidur</string>
+    <string name="combined_status_bar_signal_icons_title">Ikon sinyal gabungan</string>
+    <string name="combined_status_bar_signal_icons_summary">Aktifkan ikon sinyal gabungan\n(PERINGATAN: soft reboot akan terjadi setelah mengaktifkan ikon sinyal gabungan)</string>
 </resources>
