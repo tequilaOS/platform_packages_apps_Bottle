@@ -80,4 +80,14 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/network_options">
+
+    <Preference
+        android:key="network_traffic"
+        android:title="@string/network_traffic_state_title"
+        android:summary="@string/network_traffic_state_summary"
+        android:fragment="com.tequila.settings.fragments.NetTrafficMonSettings" />
+    </PreferenceCategory>
+
 </PreferenceScreen>
