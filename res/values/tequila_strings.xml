@@ -13,6 +13,8 @@
     <string name="tequila_settings_notifications_summary">Customize notifications</string>
     <string name="tequila_settings_misc">Miscellaneous</string>
     <string name="tequila_settings_misc_summary">Other settings</string>
+    <string name="tequila_settings_quick_settings">Quick settings</string>
+    <string name="tequila_settings_quick_settings_summary">Customize QS-related settings</string>
     <string name="website_title">Website</string>
     <string name="website_summary">Download portal</string>
     <string name="telegram_channel">Telegram channel</string>
