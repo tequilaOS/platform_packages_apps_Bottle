@@ -15,6 +15,13 @@
         android:icon="@drawable/ic_settings_statusbar"/>
 
     <Preference
+        android:key="QS_fragment"
+        android:title="@string/tequila_settings_QS"
+        android:summary="@string/tequila_settings_QS_summary" 
+        android:fragment="com.tequila.settings.fragments.QSSettings"
+        android:icon="@drawable/ic_qs"/>
+
+    <Preference
         android:key="lockscreen_fragment"
         android:title="@string/tequila_settings_lockscreen"
         android:summary="@string/tequila_settings_lockscreen_summary" 
