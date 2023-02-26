@@ -47,7 +47,7 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         ContentResolver resolver = getActivity().getContentResolver();
 
         mCombinedSignalIcons = (SwitchPreference) findPreference(KEY_COMBINED_SIGNAL_ICONS);
-        mCombinedSignalIcons.setChecked(SystemProperties.getBoolean(SYS_COMBINED_SIGNAL_ICONS, false));
+        mCombinedSignalIcons.setChecked(SystemProperties.getBoolean(SYS_COMBINED_SIGNAL_ICONS, true));
         mCombinedSignalIcons.setOnPreferenceChangeListener(this);
 
         mBatteryPercent = (SystemSettingSwitchPreference) findPreference(SHOW_BATTERY_PERCENT);
