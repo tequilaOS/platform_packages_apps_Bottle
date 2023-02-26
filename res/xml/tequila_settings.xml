@@ -10,42 +10,42 @@
     <Preference
         android:key="statusbar_fragment"
         android:title="@string/tequila_settings_statusbar"
-        android:summary="@string/tequila_settings_statusbar_summary" 
+        android:summary="@string/tequila_settings_statusbar_summary"
         android:fragment="com.tequila.settings.fragments.StatusbarSettings"
         android:icon="@drawable/ic_settings_statusbar"/>
 
     <Preference
         android:key="QS_fragment"
         android:title="@string/tequila_settings_QS"
-        android:summary="@string/tequila_settings_QS_summary" 
+        android:summary="@string/tequila_settings_QS_summary"
         android:fragment="com.tequila.settings.fragments.QSSettings"
         android:icon="@drawable/ic_qs"/>
 
     <Preference
+        android:key="notifications_fragment"
+        android:title="@string/tequila_settings_notifications"
+        android:summary="@string/tequila_settings_notifications_summary"
+        android:fragment="com.tequila.settings.fragments.NotificationsSettings"
+        android:icon="@drawable/ic_settings_notifications"/>
+
+    <Preference
         android:key="lockscreen_fragment"
         android:title="@string/tequila_settings_lockscreen"
-        android:summary="@string/tequila_settings_lockscreen_summary" 
+        android:summary="@string/tequila_settings_lockscreen_summary"
         android:fragment="com.tequila.settings.fragments.LockscreenSettings"
         android:icon="@drawable/ic_settings_lockscreen"/>
 
     <Preference
         android:key="btn_fragment"
         android:title="@string/tequila_settings_btn"
-        android:summary="@string/tequila_settings_btn_summary" 
+        android:summary="@string/tequila_settings_btn_summary"
         android:fragment="com.tequila.settings.fragments.BtnSettings"
         android:icon="@drawable/ic_btn"/>
 
     <Preference
-        android:key="notifications_fragment"
-        android:title="@string/tequila_settings_notifications"
-        android:summary="@string/tequila_settings_notifications_summary" 
-        android:fragment="com.tequila.settings.fragments.NotificationsSettings"
-        android:icon="@drawable/ic_settings_notifications"/>
-
-    <Preference
         android:key="misc_fragment"
         android:title="@string/tequila_settings_misc"
-        android:summary="@string/tequila_settings_misc_summary" 
+        android:summary="@string/tequila_settings_misc_summary"
         android:fragment="com.tequila.settings.fragments.MiscSettings"
         android:icon="@drawable/ic_misc"/>
 
