@@ -17,11 +17,17 @@ public class tequilaSettings extends SettingsPreferenceFragment {
         addPreferencesFromResource(R.xml.tequila_settings);
 
         findPreference("about_fragment").setLayoutResource(R.layout.tequila_settings_layout);
+
         findPreference("statusbar_fragment").setLayoutResource(R.layout.top_level_preference_top);
-        findPreference("quick_settings_fragment").setLayoutResource(R.layout.top_level_preference_bottom);
-        findPreference("lockscreen_fragment").setLayoutResource(R.layout.top_level_preference_alone);
+        findPreference("quick_settings_fragment").setLayoutResource(R.layout.top_level_preference_middle);
+        findPreference("lockscreen_fragment").setLayoutResource(R.layout.top_level_preference_bottom);
+
         findPreference("btn_fragment").setLayoutResource(R.layout.top_level_preference_top);
         findPreference("notifications_fragment").setLayoutResource(R.layout.top_level_preference_bottom);
+
+        findPreference("lockscreen_fragment").setLayoutResource(R.layout.top_level_preference_top);
+        findPreference("btn_fragment").setLayoutResource(R.layout.top_level_preference_bottom);
+
         findPreference("misc_fragment").setLayoutResource(R.layout.top_level_preference_alone);
     }
 
