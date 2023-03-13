@@ -15,7 +15,6 @@
     <string name="github_summary">tequilaOS Quellcode</string>
     <string name="about_links">Links</string>
     <string name="about_members">Mitglieder</string>
-    <string name="tequila_settings_about_entry">Über tequilaOS</string>
     <string name="tequila_settings_aboutus">¿Qué es el tequilaOS?</string>
     <string name="tequila_settings_aboutus_summary">tequilaOS ist ein Drittanbieter-Betriebssystem, welches auf AOSP basierend ist. Wir fokussieren uns auf Stabilität und Leistung, erlauben aber trotzdem dem Benutzer, das System auf eigenen Bedürfnissen anzupassen.</string>
     <string name="system_ui_tuner">Symbole</string>
