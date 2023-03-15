@@ -22,12 +22,6 @@
         android:title="@string/double_tap_to_sleep_title"
         android:summary="@string/double_tap_to_sleep_summary"
         android:defaultValue="false"/>
-
-    <SwitchPreference
-        android:key="enable_combined_signal_icons"
-        android:title="@string/combined_status_bar_signal_icons_title"
-        android:summary="@string/combined_status_bar_signal_icons_summary"
-        android:defaultValue="true" />
     
     <PreferenceCategory
         android:title="@string/battery_options">

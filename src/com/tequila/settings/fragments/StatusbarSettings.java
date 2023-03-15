@@ -9,7 +9,6 @@ import android.content.ContentResolver;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
@@ -23,11 +22,6 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
     //Variable
-      //Combined Signal
-         private static final String KEY_COMBINED_SIGNAL_ICONS = "enable_combined_signal_icons";
-         private static final String SYS_COMBINED_SIGNAL_ICONS = "persist.sys.enable.combined_signal_icons";
-         private SwitchPreference mCombinedSignalIcons;
-
       // Battery
          private static final String BATTERY_STYLE = "status_bar_battery_style";
          private static final String SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
@@ -45,10 +39,6 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
 
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
-
-        mCombinedSignalIcons = (SwitchPreference) findPreference(KEY_COMBINED_SIGNAL_ICONS);
-        mCombinedSignalIcons.setChecked(SystemProperties.getBoolean(SYS_COMBINED_SIGNAL_ICONS, true));
-        mCombinedSignalIcons.setOnPreferenceChangeListener(this);
 
         mBatteryPercent = (SystemSettingSwitchPreference) findPreference(SHOW_BATTERY_PERCENT);
         final boolean percentEnabled = Settings.System.getIntForUser(resolver, SHOW_BATTERY_PERCENT, 0, UserHandle.USER_CURRENT) == 1;
@@ -75,14 +65,7 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         final ContentResolver resolver = getActivity().getContentResolver();
 
-        if (preference == mCombinedSignalIcons) {
-            boolean value = (Boolean) newValue;
-            Settings.Secure.putIntForUser(getContentResolver(),
-                Settings.Secure.ENABLE_COMBINED_SIGNAL_ICONS, value ? 1 : 0, UserHandle.USER_CURRENT);
-            SystemProperties.set(SYS_COMBINED_SIGNAL_ICONS, value ? "true" : "false");
-            SystemPropPoker.getInstance().poke();
-            return true;
-         } else if (preference == mBatteryStyle) {
+        if (preference == mBatteryStyle) {
             int value = Integer.valueOf((String) newValue);
             int index = mBatteryStyle.findIndexOfValue((String) newValue);
             mBatteryStyle.setSummary(mBatteryStyle.getEntries()[index]);
