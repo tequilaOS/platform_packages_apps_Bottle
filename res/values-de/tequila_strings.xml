@@ -23,6 +23,4 @@
     <string name="double_tap_to_sleep_summary">Doppelt auf die Statusleiste tippen, um das Gerät in Standby-Modus zu versetzen</string>
     <string name="double_tap_to_sleep_lockscreen_title">Zweimal tippen für Standby-Modus</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Doppelt auf dem Sperrbildschirm tippen, um in den Standby-Modus zu gehen</string>
-    <string name="combined_status_bar_signal_icons_title">Kombinierte Signalsymbole</string>
-    <string name="combined_status_bar_signal_icons_summary">Aktiviere kombinierte Signalsymbole\n(WARNUNG: Beim Aktivieren kombinierter Signalsymbole wird ein weicher Neustart gemacht)</string>
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="tequila_settings_title">impostazioni di tequilaOS</string>
+    <string name="tequila_settings_title">Impostazioni di tequilaOS</string>
     <string name="tequila_settings_statusbar">Barra di stato</string>
     <string name="tequila_settings_statusbar_summary">Personalizzazione icone nella barra di stato</string>
     <string name="tequila_settings_lockscreen">Schermata di blocco</string>
@@ -11,6 +11,8 @@
     <string name="tequila_settings_notifications_summary">Personalizza notifiche</string>
     <string name="tequila_settings_misc">Extra</string>
     <string name="tequila_settings_misc_summary">Altre impostazioni</string>
+    <string name="tequila_settings_quick_settings">Quick settings</string>
+    <string name="tequila_settings_quick_settings_summary">Personalizza impostazioni QS</string>
     <string name="website_title">Sito web</string>
     <string name="website_summary">Portale download</string>
     <string name="telegram_channel">Canale Telegram</string>
@@ -21,7 +23,9 @@
     <string name="github_summary">codice sorgente tequilaOS</string>
     <string name="about_links">Collegamenti</string>
     <string name="about_members">Membri</string>
-    <string name="tequila_settings_aboutus">¿Cos\'è la tequilaOS?</string>
+    <string name="tequila_settings_about_entry">Che cos’è tequilaOS?</string>
+    <string name="tequila_settings_aboutus">Cos\'è la tequilaOS?</string>
+    <string name="tequila_settings_aboutus_entry">Tocca qui per saperne di più su tequilaOS e il nostro team.</string>
     <string name="tequila_settings_aboutus_summary">tequilaOS è una rom aftermarket basata su AOSP. Ci concentriamo sulla stabilità e sulle prestazioni, ma permettiamo comunque agli utenti di personalizzare il sistema in base alle proprie esigenze.</string>
     <string name="system_ui_tuner">Icone</string>
     <string name="system_ui_tuner_summary">Mostra e nascondi le varie icone</string>
@@ -29,8 +33,6 @@
     <string name="double_tap_to_sleep_summary">Doppio tocco sulla barra di stato per spegnere lo schermo</string>
     <string name="double_tap_to_sleep_lockscreen_title">Doppio tocco per spegnere</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Doppio tocco sulla schermata di blocco per spegnere lo schermo</string>
-    <string name="combined_status_bar_signal_icons_title">Combina le icone del segnale</string>
-    <string name="combined_status_bar_signal_icons_summary">Abilita le icone del segnale combinate\n(ATTENZIONE: avverrà un soft reboot abilitando le icone del segnale combinate)</string>
     <string name="volume_button_music_control_title">Controllo della riproduzione</string>
     <string name="volume_button_music_control_summary">Quando lo schermo è spento, premere a lungo i tasti volume salterà le tracce musicali</string>
     <string name="gesture_playback_control_delay">ritardo</string>
@@ -50,22 +52,26 @@
     <string name="qs_show_auto_brightness_summary">Mostra il toggle per la luminosità adattiva vicino lo slider</string>
     <string name="notification_sound_vib_screen_on_title">Notifiche fastidiose</string>
     <string name="notification_sound_vib_screen_on_summary">Riproduci il suono e la vibrazione delle notifiche quando lo schermo è acceso</string>
-    <string name="battery_options">Batteria</string>
-    <string name="battery_style_title">Stile Batteria</string>
-    <string name="battery_style_port">Verticale</string>
-    <string name="battery_style_circle">Circolare</string>
-    <string name="battery_style_text">Testo</string>
-    <string name="battery_percent_title">Mostra percentuale</string>
-    <string name="battery_percent_summary">Mostra sempre la percentuale di batteria con l\'icona</string>
-    <string name="battery_percent_inside_title">Mostra percentuale all\'interno</string>
-    <string name="battery_percent_inside_summary">Mostra percentuale all\'interno dell\'icona</string>
-    <string name="show_battery_percent_charging_title">Mostra percentuale durante la ricarica</string>
-    <string name="show_battery_percent_charging_summary">Forza la visualizzazione della percentuale accanto all\'icona durante la ricarica</string>
-    <string name="qs_show_battery_estimate_title">Stima della batteria</string>
-    <string name="qs_show_battery_estimate_summary_on">Mostra la stima della batteria nelle impostazioni rapide</string>
-    <string name="qs_show_battery_estimate_summary_off">Nascondi la stima della batteria nelle impostazioni rapide</string>
     <string name="incall_vibration_category">Opzioni di vibrazione in chiamata</string>
     <string name="incall_vibrate_connect_title">Vibra alla risposta</string>
     <string name="incall_vibrate_call_wait_title">Vibra per chiamata in attesa</string>
     <string name="incall_vibrate_disconnect_title">Vibra alla chiusura</string>
+    <string name="network_options">Rete</string>
+    <string name="network_traffic_state_title">Traffico di rete</string>
+    <string name="network_traffic_state_summary">Mostra il traffico di rete sulla barra di stato</string>
+    <string name="network_traffic_state_switch">Abilita monitor traffico di rete</string>
+    <string name="network_traffic_location_title">Posizione traffico di rete</string>
+    <string name="traffic_statusbar">Barra di stato</string>
+    <string name="traffic_expanded_statusbar">Modalità estesa</string>
+    <string name="network_traffic_autohide_threshold_title">Soglia alla quale nascondere il monitor di rete (KB/s)</string>
+    <string name="network_traffic_arrow_title">Mostra le frecce</string>
+    <string name="network_traffic_arrow_summary">Mostra le frecce dell\'indicatore di traffico di rete</string>
+    <string name="network_traffic_type">Seleziona il tipo di attività di rete</string>
+    <string name="show_network_traffic_combined">Combinato (Upload + Download)</string>
+    <string name="show_network_traffic_dynamic">Dinamico</string>
+    <string name="show_network_traffic_up">Upload</string>
+    <string name="show_network_traffic_down">Download</string>
+    <string name="show_network_traffic_all">Entrambi</string>
+    <string name="show_fourg_icon_title">Icona 4G</string>
+    <string name="show_fourg_icon_summary">Mostra 4G invece di LTE nell\'icona del segnale</string>
 </resources>
