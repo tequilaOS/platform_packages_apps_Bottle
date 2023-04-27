@@ -11,6 +11,12 @@
         <intent android:action="com.android.settings.action.STATUS_BAR_TUNER"/>
     </Preference>
 
+    <com.tequila.support.preferences.SystemPropertySwitchPreference
+        android:key="persist.sys.flags.combined_signal_icons"
+        android:title="@string/combined_status_bar_signal_icons_title"
+        android:summary="@string/combined_status_bar_signal_icons_summary"
+        android:defaultValue="true" />
+
     <com.tequila.support.preferences.SystemSettingSwitchPreference
             android:key="show_fourg_icon"
             android:title="@string/show_fourg_icon_title"
