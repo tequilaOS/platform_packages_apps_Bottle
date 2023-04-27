@@ -114,4 +114,12 @@
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Show data disabled icon</string>
     <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
+
+    <!-- WiFi Standard icon -->
+    <string name="wifi_standard_icon_title">WiFi standard</string>
+    <string name="wifi_standard_icon_summary">Display WiFi standard next to WiFi signal</string>
+
+    <!-- Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons_title">Combined signal icons</string>
+    <string name="combined_status_bar_signal_icons_summary">Show single combined icon for WiFi and mobile signal</string>
 </resources>
