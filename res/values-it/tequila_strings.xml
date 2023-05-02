@@ -74,4 +74,11 @@
     <string name="show_network_traffic_all">Entrambi</string>
     <string name="show_fourg_icon_title">Icona 4G</string>
     <string name="show_fourg_icon_summary">Mostra 4G invece di LTE nell\'icona del segnale</string>
+    <string name="qs_footer_category">Piè di Pagina QS</string>
+    <string name="qs_show_data_usage_title">Mostra utilizzo dati</string>
+    <string name="qs_show_data_usage_summary">Mostra l\'utilizzo giornaliero di Connessione Dati/Wi-Fi nel piè di pagina dei QS</string>
+    <string name="enable_fingerprint_ripple_effect_title">Effetto ondulazione</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Mostra l\'effetto ondulazione allo sblocco del dispositivo con l\'impronta digitale</string>
+    <string name="data_disabled_icon_title">Mostra l\'icona dei dati disattivati</string>
+    <string name="data_disabled_icon_summary">Mostra una X accanto alla barra del segnale quando i dati sono disabilitati</string>
 </resources>
