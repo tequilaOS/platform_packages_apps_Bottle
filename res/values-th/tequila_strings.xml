@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tequila_settings_title">การตั้งค่า tequilaOS</string>
+    <string name="tequila_settings_statusbar">แถบสถานะ</string>
+    <string name="tequila_settings_statusbar_summary">ปรับแต่งไอคอนบนแถบสถานะ</string>
+    <string name="tequila_settings_lockscreen">หน้าจอล็อก</string>
+    <string name="tequila_settings_lockscreen_summary">แตะหน้าจอสองครั้งเพื่อปิดหน้าจอและอื่นๆ</string>
+    <string name="tequila_settings_btn">ปุ่ม</string>
+    <string name="tequila_settings_notifications">การแจ้งเตือน</string>
+    <string name="tequila_settings_notifications_summary">การตั้งค่าการแจ้งเตือน</string>
+    <string name="tequila_settings_misc">อื่นๆ</string>
+    <string name="tequila_settings_misc_summary">การตั้งค่าอื่นๆ</string>
+    <string name="tequila_settings_quick_settings">การตั้งค่าแบบรวดเร็ว</string>
+    <string name="website_title">เว็ปไซต์</string>
+    <string name="donate_title">การบริจาค</string>
+    <string name="github_title">GitHub</string>
+    <string name="github_summary">tequilaOS source code</string>
+    <string name="about_links">ลิงค์</string>
+    <string name="about_members">สมาชิก</string>
+    <string name="tequila_settings_about_entry">อะไรคือ tequilaOS</string>
+    <string name="tequila_settings_aboutus">¿Qué es el tequilaOS?</string>
+    <string name="tequila_settings_aboutus_entry">แตะตรงนี้เพื่อเรียนรู้เกี่ยวกับ tequilaOS และทีมของเรา</string>
+    <string name="tequila_settings_aboutus_summary">tequilaOS คือ รอมที่มีฐานอยู่บน AOSP. เราโฟกัสในเรื่องความมั่นคงและประสิทธิภาพและยังสามารถให้ผู้ใช้งานตกแต่งระบบของเค้าตามที่เค้าต้องการ</string>
+    <string name="system_ui_tuner">ไอคอน</string>
+    <string name="qs_brightness_slider_position_title">ตำแหน่ง</string>
+    <string name="qs_brightness_slider_position_top">บน</string>
+    <string name="qs_brightness_slider_position_bottom">ด้านล่าง</string>
+    <string name="qs_show_auto_brightness_title">ไอคอนปรับแสงอัตโนมัติ</string>
+</resources>

@@ -74,4 +74,11 @@
     <string name="show_network_traffic_all">Beides</string>
     <string name="show_fourg_icon_title">4G Symbol</string>
     <string name="show_fourg_icon_summary">4G-Symbol anstatt LTE anzeigen</string>
+    <string name="qs_footer_category">QS-Fußzeile</string>
+    <string name="qs_show_data_usage_title">Datennutzung anzeigen</string>
+    <string name="qs_show_data_usage_summary">Tägliche Mobil-/WLAN-Datennutzung in Schnelleinstellungen anzeigen</string>
+    <string name="enable_fingerprint_ripple_effect_title">Rippel-Effekt</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Rippel-Effekt bei Entsperrung mit Fingerabdruck anzeigen</string>
+    <string name="data_disabled_icon_title">Ausgeschaltetes Mobile Daten-Symbol anzeigen</string>
+    <string name="data_disabled_icon_summary">Kreuz-Symbol neben Signalbalken anzeigen, wenn Mobile Daten deaktiviert ist.</string>
 </resources>

@@ -74,4 +74,11 @@
     <string name="show_network_traffic_all">Ambas</string>
     <string name="show_fourg_icon_title">Icono 4G</string>
     <string name="show_fourg_icon_summary">Mostrar icono de 4G en la señal en vez de LTE</string>
+    <string name="qs_footer_category">Pie de Ajustes Rápidos</string>
+    <string name="qs_show_data_usage_title">Mostrar uso de datos</string>
+    <string name="qs_show_data_usage_summary">Mostrar uso diario de datos/Wi-Fi al pie de ajustes rápidos</string>
+    <string name="enable_fingerprint_ripple_effect_title">Animación al desbloquear</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Mostrar efecto al desbloquear con huella</string>
+    <string name="data_disabled_icon_title">Mostrar ícono de datos deshabilitados</string>
+    <string name="data_disabled_icon_summary">Mostar una \"X\" junto a la barra de señal cuando los datos esten desactivados</string>
 </resources>

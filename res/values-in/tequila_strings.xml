@@ -74,4 +74,11 @@
     <string name="show_network_traffic_all">Keduanya</string>
     <string name="show_fourg_icon_title">Ikon 4G</string>
     <string name="show_fourg_icon_summary">Tampilkan ikon 4G dalam ikon sinyal, bukan LTE</string>
+    <string name="qs_footer_category">Footer Setelan Cepat</string>
+    <string name="qs_show_data_usage_title">Tampilkan penggunaan data</string>
+    <string name="qs_show_data_usage_summary">Tampilkan penggunaan data seluler/Wi-Fi harian di footer Setelan Cepat</string>
+    <string name="enable_fingerprint_ripple_effect_title">Efek riak</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Tampilkan efek riak saat membuka kunci dengan sidik jari</string>
+    <string name="data_disabled_icon_title">Tampilkan ikon data dinonaktifkan</string>
+    <string name="data_disabled_icon_summary">Tampilkan tanda seru di sebelah bar sinyal saat data dinonaktifkan</string>
 </resources>
